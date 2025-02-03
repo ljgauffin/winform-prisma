@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\LucasG\\Desktop\\Winforms arduino\\Prueba\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{825FBEF6-950F-45FF-A7FC-43FBD2786A32}|Prueba\\Prueba.csproj|C:\\Users\\LucasG\\Desktop\\Winforms arduino\\Prueba\\prueba\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{825FBEF6-950F-45FF-A7FC-43FBD2786A32}|Prueba\\Prueba.csproj|c:\\users\\lucasg\\desktop\\winforms arduino\\prueba\\prueba\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{825FBEF6-950F-45FF-A7FC-43FBD2786A32}|Prueba\\Prueba.csproj|solutionrelative:prueba\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -30,28 +30,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\LucasG\\Desktop\\Winforms arduino\\Prueba\\Prueba\\Form1.Designer.cs",
-              "RelativeDocumentMoniker": "Prueba\\Form1.Designer.cs",
-              "ToolTip": "C:\\Users\\LucasG\\Desktop\\Winforms arduino\\Prueba\\Prueba\\Form1.Designer.cs",
-              "RelativeToolTip": "Prueba\\Form1.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T22:13:25.737Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\LucasG\\Desktop\\Winforms arduino\\Prueba\\Prueba\\Form1.cs",
               "RelativeDocumentMoniker": "Prueba\\Form1.cs",
               "ToolTip": "C:\\Users\\LucasG\\Desktop\\Winforms arduino\\Prueba\\Prueba\\Form1.cs",
               "RelativeToolTip": "Prueba\\Form1.cs",
-              "ViewState": "AgIAAEMAAAAAAQAAAAAUwHgAAABDAAAAAAAAAA==",
+              "ViewState": "AgIAAEgAAAAA//////8rwIwAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T21:15:00.878Z",
+              "WhenOpened": "2025-02-03T02:44:30.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\LucasG\\Desktop\\Winforms arduino\\Prueba\\Prueba\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Prueba\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\LucasG\\Desktop\\Winforms arduino\\Prueba\\Prueba\\Form1.Designer.cs",
+              "RelativeToolTip": "Prueba\\Form1.Designer.cs",
+              "ViewState": "AgIAAIkAAAAAzMzMzMwUwBYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T22:13:25.737Z",
               "EditorCaption": ""
             },
             {

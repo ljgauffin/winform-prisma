@@ -36,13 +36,16 @@
             labelMicro = new Label();
             contextMenuStrip1 = new ContextMenuStrip(components);
             button2 = new Button();
+            groupBox1 = new GroupBox();
+            btnSend = new Button();
+            groupBox1.SuspendLayout();
             SuspendLayout();
             // 
             // portsList
             // 
             portsList.AllowDrop = true;
             portsList.FormattingEnabled = true;
-            portsList.Location = new Point(87, 64);
+            portsList.Location = new Point(598, 7);
             portsList.Name = "portsList";
             portsList.Size = new Size(121, 23);
             portsList.TabIndex = 0;
@@ -50,22 +53,22 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(474, 64);
+            textBox1.Location = new Point(268, 22);
             textBox1.Multiline = true;
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(271, 307);
+            textBox1.Size = new Size(663, 378);
             textBox1.TabIndex = 1;
             // 
             // txtOut
             // 
-            txtOut.Location = new Point(127, 191);
+            txtOut.Location = new Point(19, 22);
             txtOut.Name = "txtOut";
             txtOut.Size = new Size(208, 23);
             txtOut.TabIndex = 2;
             // 
             // button1
             // 
-            button1.Location = new Point(133, 246);
+            button1.Location = new Point(19, 51);
             button1.Name = "button1";
             button1.Size = new Size(75, 23);
             button1.TabIndex = 3;
@@ -97,20 +100,44 @@
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
             // 
+            // groupBox1
+            // 
+            groupBox1.Controls.Add(txtOut);
+            groupBox1.Controls.Add(button1);
+            groupBox1.Controls.Add(textBox1);
+            groupBox1.Location = new Point(68, 292);
+            groupBox1.Name = "groupBox1";
+            groupBox1.Size = new Size(986, 406);
+            groupBox1.TabIndex = 6;
+            groupBox1.TabStop = false;
+            groupBox1.Text = "Debug";
+            groupBox1.Enter += groupBox1_Enter;
+            // 
+            // btnSend
+            // 
+            btnSend.Location = new Point(87, 254);
+            btnSend.Name = "btnSend";
+            btnSend.Size = new Size(75, 23);
+            btnSend.TabIndex = 7;
+            btnSend.Text = "Enviar";
+            btnSend.UseVisualStyleBackColor = true;
+            btnSend.Click += btnSend_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(1222, 779);
+            Controls.Add(btnSend);
+            Controls.Add(groupBox1);
             Controls.Add(button2);
             Controls.Add(labelMicro);
-            Controls.Add(button1);
-            Controls.Add(txtOut);
-            Controls.Add(textBox1);
             Controls.Add(portsList);
             Name = "Form1";
             Text = "Form1";
             Load += Form1_Load;
+            groupBox1.ResumeLayout(false);
+            groupBox1.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -124,5 +151,7 @@
         private Label labelMicro;
         private ContextMenuStrip contextMenuStrip1;
         private Button button2;
+        private GroupBox groupBox1;
+        private Button btnSend;
     }
 }
